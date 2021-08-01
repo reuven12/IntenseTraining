@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+   
+    <link rel="stylesheet" href="StyleHome.css">
+    <title>MainPage</title>
+</head>
+<body>
+    <p id="displayDateTime"></p>
+    <h1 class="a">Home Page</h1>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="Tabs.html">Tabs</a></li>
+            <li><a href="Algorithmics.html">Algorithmics</a></li>
+       </ul>
+   </nav>
+   <script>
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes();
+    var dateTime = date+' '+time;
+ 
+    document.getElementById("displayDateTime").innerHTML = 'Time: '+time+'</br>'+'Date: '+date;
+</script>
+</body>
+</html>

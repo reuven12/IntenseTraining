@@ -1,0 +1,28 @@
+body{
+    background-color: lightgrey;
+}
+.main-nav ul{
+    display: flex;
+    margin-top: 4%;
+    background-color: cornsilk;
+    padding: 15px 30px;
+}
+.main-nav li{
+    flex-grow: 1;
+    display: block;
+}
+.main-nav a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main-nav a:hover{
+    background-color: lightpink;
+    padding: 10px;
+}
+.a{
+    text-align: center;
+    margin-top: 5%;
+    color:teal;
+}

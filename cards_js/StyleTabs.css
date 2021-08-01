@@ -1,0 +1,163 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+:root{
+   --primary-color:#4a47a3;
+   --text-color:#2a2b2c;
+   --secondary-color:#c9c8e3; 
+}
+body{
+    background-image: url(img/b.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 1rem;
+    line-height:1.5 ;
+    font-family:"Inter","Poppins",sans-serif;
+    color: var(--text-color);
+    /* background-color:tan; */
+}
+label{
+  display: block;  
+}
+input,button{
+    border: none;
+    box-shadow: none;
+    font: inherit;
+    width: 100%;
+}
+
+
+ /* :focus{ 
+    outline: 0;
+    box-shadow: 0 0 0 0 .25rem olive ;
+}  */
+.add_card{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width:350px ;
+    max-width: 100%;
+    background-color:#00000075;
+    display: grid;
+    grid: auto / 1fr;
+    column-gap: 20rem; 
+    row-gap: 0.20rem;
+    padding:1.2rem 1.2rem;
+    box-shadow: 0 0.75rem 2rem 0 rgba(0,0,0,.15) ;
+    font-size:1rem;
+    border-radius: 1rem;
+    
+} */
+.input-group{
+    grid-column: span 1;
+}
+
+.input-label{
+    font-weight: 2000;
+    margin-bottom: 0.12rem;
+}
+.input-text{
+    padding: 0.05rem;
+    border: 3px solid#e0e0e0;
+    border-radius: 5px;
+}
+.E-mail{
+margin-bottom: 20px;
+}
+.input-text:hover{
+    background-color: moccasin;
+    transform: scale(1.01);
+}
+.input-button{
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    border:1px solid var(--secondary-color);
+    padding:0.15rem;
+    border-radius: 3rem;
+    margin-bottom:10px;
+}
+.input-button:hover{
+    background-color: mediumaquamarine;
+    transform: scale(1.05);
+}
+.input-button-primary{
+    border-color:var(--primary-color);
+    background-color: var(--primary-color);
+    color:#fff;
+}
+.span-2{
+   grid-column:1; 
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:lightslategray;
+}
+.container{
+    position:absolute;
+    display: flex;
+    /* justify-content: flex-start; */
+    padding: 3px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    top: 58%;
+    right: 8%;
+    left: 8%; 
+    max-width: 100%;
+    gap:20px 20px;
+
+}
+ .container .newCard{
+    height: 160px;
+    background-color:lightyellow;
+    flex-wrap: wrap;
+    width: 220px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 25px 10px;
+    font-size: 100%;
+}
+.deletbutoon{
+    background:none;
+    color:teal;
+    border: none;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 150px;
+    margin-bottom: 3px;
+}
+.deletbutoon:hover{
+    opacity: 0.7;
+}
+.deletbutoon {
+    display: none;
+}
+
+.newCard:hover .deletbutoon{
+    display: inline-block;
+}
+.Link_Home{
+    text-decoration: none;
+    font-size: 30px;
+    color: thistle;
+    position: fixed;
+    
+}
+
+@media screen and (max-width:728xp) {
+
+    
+}
