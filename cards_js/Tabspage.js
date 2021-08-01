@@ -79,13 +79,9 @@ function CreatNewCard(){
     // document.querySelector('.newCard').innerHTML=stored;
 }
     function empt(){
-    const name1=document.querySelector(".name");
-    const profession=document.querySelector(".profession");
-    const email=document.querySelector(".E-mail");
-
-    name1='';
-    profession='';
-    email='';
+    document.querySelector(".name").value='';
+    document.querySelector(".profession").value='';
+    document.querySelector(".E-mail").value='';
     }
     // document.querySelector('.newCard').addEventListener('click',(e)=>{
     
