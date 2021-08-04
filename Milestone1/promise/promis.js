@@ -14,11 +14,11 @@ else{
 }
 });
 
-// promise1('good')
-// .then(res =>console.log(res))
-// .catch(reject=>
-//     console.log(reject)
-// );
+promise1('good')
+.then(res =>console.log(res))
+.catch(reject=>
+    console.log(reject)
+);
 
 //A function that receives 2 numbers and returns a promise
 
