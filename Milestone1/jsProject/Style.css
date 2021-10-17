@@ -1,0 +1,114 @@
+body{
+    background: url(background.jpg) ;background-size: cover; 
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+   padding: 0;
+   font-weight: bold;
+   font-size: 35px;
+   color:steelblue;
+   text-align: center;
+   margin-bottom: 7%;
+   font-family: Courgette;
+}
+.wrapper{
+    opacity: 100%;
+    width: 30%;
+    height: 7%;
+    color: #000;
+    padding: 60px 40px;
+    margin: 10% 35% 13% 35%;
+    box-sizing:border-box;
+    box-shadow: 8px 8px 50px #000;
+    border-radius: 10px;
+}
+.wrapper input[type=email],.wrapper input[type=password]{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.wrapper input[type=email], .wrapper input[type=password]{
+    border-left: 10px;
+    border-top: 10px;
+    border-right: 10px;
+    border-bottom: 2px groove rgb(221, 221, 221);
+    background:transparent;
+    outline:thin;
+    height:30px;
+    font-size: 16px;
+    opacity: 1;
+    color:wheat;
+}
+.wrapper input[type=submit]{
+    border:thick;
+    outline: none;
+    height: 35px;
+    background-color: #00000055;
+    color:wheat;
+    font-size: 17px;
+    font-weight:normal;
+    width: 30%;
+    height: 5%;
+    margin-left: 35%;
+    border-radius: 10px;
+
+}
+.wrapper input[type=submit]:hover{
+    cursor:pointer;
+}
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+.wrapper a:hover{
+    color:teal;
+    opacity: 1;
+}
+.bottom-text{
+    color: #fff;
+}
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+.bottom-text a {
+   text-decoration: underline;
+   border-bottom: 2px solid yellow;
+}
+.socials{
+    margin-top: 10%;
+    text-align: center;
+}
+.socials a{
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    border:1px solid #fff;
+    border-radius:50%;
+    margin:5px;
+}
+.socials a:nth-child(1){
+    background: #3b5998;
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #bd081c;
+}
+.socials a:nth-child(4){
+    background: #0077b5;
+}
+.socials a i{
+    padding: 12px ;
+}
+#overlay-area{
+    position: absolute;
+    background-color: rgba(0,0,0,0,.4);
+    z-index: -5;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
